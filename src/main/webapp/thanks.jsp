@@ -20,7 +20,7 @@
 <span>${user.wouldLike}</span><br>
 <label> Contact him/her through: </label>
 <span>${user.contact}</span><br>
-<form action="emailist" method="get">
+<form action="emailList" method="get">
     <input type="hidden" name="action" value="join">
     <input type="submit" value="Return">
 </form>
